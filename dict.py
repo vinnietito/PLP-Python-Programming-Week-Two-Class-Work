@@ -2,7 +2,9 @@ students = {
     "Name": "Vincent Kimanthi",
     "Age" : 20,
     "Gender" : "Male",
-    "Education Level" : "Undergraduate"
+    "Education Level" : "Undergraduate",
+    12 : 2323
 }
 
-print(students["Name"])
+
+print(students[12])
