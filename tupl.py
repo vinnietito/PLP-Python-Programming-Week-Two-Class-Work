@@ -1,4 +1,4 @@
 students = ("Vincent", "Kimanthi", "Milka", "Kelvin", 4, True)
 #print(students)
 
-print
+print(students[-3])
