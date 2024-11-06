@@ -4,3 +4,5 @@ students = {
     "Gender" : "Male",
     "Education Level" : "Undergraduate"
 }
+
+print(students["Name"])
