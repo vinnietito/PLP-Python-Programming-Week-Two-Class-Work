@@ -1,3 +1,4 @@
-studentsIds = {12, 13, 14, 15, 16}
+studentsIds = {12, 13, 14, 34, 35, 11, 8}
 
-print(studentsIds)
+#print(studentsIds)
+print(sorted(studentsIds))
