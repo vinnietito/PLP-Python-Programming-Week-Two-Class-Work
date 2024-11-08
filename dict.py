@@ -7,4 +7,4 @@ students = {
 }
 
 
-print(students[12])
+print(students["Name"])
