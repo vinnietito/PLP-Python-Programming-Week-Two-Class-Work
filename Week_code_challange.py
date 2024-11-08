@@ -21,15 +21,15 @@
 
 # 3. Program to Store Information About a Person in a Dictionary
 #Creating a dictionary to store personal information
-person_info = {}
+# person_info = {}
 
-#Asking the user for input
-person_info['name'] = input("Enter your name: ")
-person_info['age'] = int(input("Enter your age: "))
-person_info['favourite_color'] = input("Enter your favourite color: ")
+# #Asking the user for input
+# person_info['name'] = input("Enter your name: ")
+# person_info['age'] = int(input("Enter your age: "))
+# person_info['favourite_color'] = input("Enter your favourite color: ")
 
-#Printing the dictionary
-print("Person Information: ", person_info)
+# #Printing the dictionary
+# print("Person Information: ", person_info)
 
 
 
@@ -42,3 +42,7 @@ set2 = set(map(int, input("Enter integers for the second set, separated by space
 common_elements = set1.intersection(set2)
 
 print("Common elements in both sets:", common_elements)
+
+
+
+# Program to Filter Words with Odd Number of Characters Using List Comprehension
