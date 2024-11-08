@@ -21,5 +21,8 @@
 # a = "Hello, World!"
 # print(a.upper())
 
-name ="VINCENT KIMANTHI"
-print(name.lower())
+# name ="VINCENT KIMANTHI"
+# print(name.lower())
+
+name =" VINCENT KIMANTHI "
+print(name.strip())
