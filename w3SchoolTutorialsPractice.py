@@ -24,5 +24,8 @@
 # name ="VINCENT KIMANTHI"
 # print(name.lower())
 
-name =" VINCENT KIMANTHI "
-print(name.strip())
+# name =" VINCENT KIMANTHI "
+# print(name.strip())
+
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']
