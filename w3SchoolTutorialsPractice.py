@@ -18,5 +18,8 @@
 # x = "Welcome"
 # print(x[3:])
 
-a = "Hello, World!"
-print(a.upper())
+# a = "Hello, World!"
+# print(a.upper())
+
+name ="VINCENT KIMANTHI"
+print(name.lower())
