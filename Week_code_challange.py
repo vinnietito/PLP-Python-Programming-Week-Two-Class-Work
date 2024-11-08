@@ -30,3 +30,12 @@ person_info['favourite_color'] = input("Enter your favourite color: ")
 
 #Printing the dictionary
 print("Person Information: ", person_info)
+
+
+
+# 4. Program to Create Two Sets and Find Common Elements
+#Accepting user input to create two sets of integers
+set1 = set(map(int, input("Enter integers for the first set, separated by spaces: ").split()))
+set2 = set(map(int, input("Enter integers for the second set, separated by spaces: ").split()))
+
+#Creating a new set containing elements to both sets
