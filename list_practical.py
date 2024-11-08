@@ -10,7 +10,9 @@ list_a.extend([8, 9])
 list_a.pop(8)
 del list_a[7]
 
-print(list_a)
+for item in list_a:
+    print(item)
+#print(list_a)
 
 list_b = [1, "today", True, 3.0]
 
