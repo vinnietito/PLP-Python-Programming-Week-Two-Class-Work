@@ -39,3 +39,6 @@ set1 = set(map(int, input("Enter integers for the first set, separated by spaces
 set2 = set(map(int, input("Enter integers for the second set, separated by spaces: ").split()))
 
 #Creating a new set containing elements to both sets
+common_elements = set1.intersection(set2)
+
+print("Common elements in both sets:", common_elements)
