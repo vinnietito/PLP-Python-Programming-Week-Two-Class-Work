@@ -35,14 +35,21 @@
 
 # 4. Program to Create Two Sets and Find Common Elements
 #Accepting user input to create two sets of integers
-set1 = set(map(int, input("Enter integers for the first set, separated by spaces: ").split()))
-set2 = set(map(int, input("Enter integers for the second set, separated by spaces: ").split()))
+# set1 = set(map(int, input("Enter integers for the first set, separated by spaces: ").split()))
+# set2 = set(map(int, input("Enter integers for the second set, separated by spaces: ").split()))
 
-#Creating a new set containing elements to both sets
-common_elements = set1.intersection(set2)
+# #Creating a new set containing elements to both sets
+# common_elements = set1.intersection(set2)
 
-print("Common elements in both sets:", common_elements)
+# print("Common elements in both sets:", common_elements)
 
 
 
-# Program to Filter Words with Odd Number of Characters Using List Comprehension
+# 5. Program to Filter Words with Odd Number of Characters Using List Comprehension
+#list of words
+words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape"]
+
+#Using list comprehension to filter words with an odd number of characters
+odd_length_words = [word for word in words if len(word) % 2 != 0]
+
+print("Words with an odd number of characters:", odd_length_words)
