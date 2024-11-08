@@ -15,5 +15,8 @@
 # txt = "The best things in life are free!"
 # print("expensive" not in txt)
 
-x = "Welcome"
-print(x[3:])
+# x = "Welcome"
+# print(x[3:])
+
+a = "Hello, World!"
+print(a.upper())
