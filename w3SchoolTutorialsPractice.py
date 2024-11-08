@@ -1,6 +1,9 @@
-a = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
+# a = """Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua."""
 
-print(a)
+# print(a)
+
+for x in "banana":
+    print(x)
